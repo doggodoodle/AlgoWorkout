@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class SubArraysWithSum {
     public static void main(String[] args) {
-        int [] arr = {1,2,2};
+        int [] arr = {2, 3};
 
         Arrays.sort(arr);
 
@@ -68,41 +68,33 @@ public class SubArraysWithSum {
         return;
     }
 
-    private static List<List<Integer>> getPowerSet(List<Integer> list, int index){
-
-        List<List<Integer>> powerSet;
-
-        if(index == list.size()){
-            powerSet= new ArrayList<List<Integer>>();
-            powerSet.add(new ArrayList<Integer>());
-        }
-        else {
-            //while (index < list.size()-1 && index>0 && list.get(index) == list.get(index-1)) {index++;}
-            powerSet = getPowerSet(list, index+1);
+    private static List<List<Integer>> getPowerSet(List<Integer> list, int index) {
+        List<List<Integer>> powerset;
+        if (index == list.size()) {
+            powerset = new ArrayList<>();
+            powerset.add(new ArrayList<Integer>());
+        } else {
+            powerset = getPowerSet(list, index + 1);
+            System.out.println("index:"+index);
+            System.out.println("powerset:"+powerset);
             Integer item = list.get(index);
-            List<List<Integer>> moreSets = new ArrayList<List<Integer>>();
-            if(index<list.size()-1 && list.get(index) == list.get(index+1)){
-                List<Integer> newSet = new ArrayList<Integer>();
-                newSet.add(powerSet.size()-1);
-                newSet.add(item);
-                moreSets.add(newSet);
+            System.out.println("item:"+item);
+            List<List<Integer>> moresets = new ArrayList<>();
+            System.out.println("moresets:"+moresets);
+            for (List<Integer> set : powerset) {
+                System.out.println("set:"+set);
+                List<Integer> moreSet = new ArrayList<>();
+                moreSet.addAll(set);
+                moreSet.add(item);
+                System.out.println("moreSet:"+moreSet);
+                moresets.add(moreSet);
+                System.out.println("moresets:"+moresets);
             }
-            else{
-                for(List<Integer> set : powerSet){
-                    List<Integer> newSet = new ArrayList<Integer>();
-                    newSet.addAll(set);
-                    moreSets.add(newSet);
-
-                }
-            }
-            powerSet.addAll(moreSets);
-            for(List<Integer> set : powerSet){
-                System.out.println(set);
-            }
-            System.out.println("-----");
-
+            powerset.addAll(moresets);
+            System.out.println("powerset:"+powerset);
         }
-
-        return powerSet;
+        System.out.println("\n");
+        return powerset;
     }
+
 }
