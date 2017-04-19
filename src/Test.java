@@ -1,120 +1,74 @@
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 12/24/16.
+ * Created by ritvikmathur on 1/6/17.
  */
 public class Test {
+
+    static HashMap<String, Boolean> map = new HashMap<String, Boolean>();
+
+
     public static void main(String[] args) {
-        Test app = new Test(2);
-        //2,[get(2),set(2,6),get(1),set(1,5),set(1,2),get(1),get(2)]
-
-        System.out.println(app.get(2));
-        app.set(2,6);
-        System.out.println("******");
-        System.out.println("countMap="+app.countMap);
-        System.out.println("dataMap="+app.dataMap);
-        System.out.println("q="+app.q);
-        System.out.println(app.get(1));
-        app.set(1,5);
-        System.out.println("******");
-        System.out.println("countMap="+app.countMap);
-        System.out.println("dataMap="+app.dataMap);
-        System.out.println("q="+app.q);
-        app.set(1,2);
-        System.out.println("******");
-        System.out.println("countMap="+app.countMap);
-        System.out.println("dataMap="+app.dataMap);
-        System.out.println("q="+app.q);
-
-
-        System.out.println(app.get(1));
-
-        System.out.println(app.get(2));
-
-
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 0);
+        map.put(2, 0);
+        Map<Integer, Integer> map2 = new HashMap<>();
+        System.out.println(map.equals(map2));
 
 
     }
 
-    int capacity;
+    static boolean isValid(String s){
 
-    HashMap<Integer, Integer> dataMap = new HashMap<Integer, Integer>();
 
-    HashMap<Integer, Integer> countMap = new HashMap<Integer, Integer>();
 
-    Queue<Integer> q = new ArrayDeque<Integer>(capacity);
+        if(map.get(s)!=null)
+            return map.get(s);
 
-    void removeOldest(){
-        if(q.isEmpty())
-            return;
-        Integer k = q.remove();
 
-        Integer count = countMap.get(k);
-
-        if(count  == null || --count <= 0){
-            countMap.remove(k);
-            dataMap.remove(k);
+        if(s==null || s.isEmpty()){
+            map.put(s, false);
+            return false;
         }
-        else{
-            countMap.put(k, count);
+
+
+        char ch = s.charAt(0);
+
+        int i = 0;
+
+        int ct = 0;
+        for(char c : s.toCharArray()){
+
+            if(c == ch)
+                ct++;
+            else
+                break;
+
+            i++;
+
         }
-    }
 
-    public Test(int capacity) {
-        this.capacity = capacity;
-    }
+        int ct2=0;
 
-    public int get(int key) {
-
-        Integer count = countMap.get(key);
-
-        if(count == null)
-            return -1;
-        else{
-
-            int data = dataMap.get(key);
-
-            if(q.size() >= capacity){
-                removeOldest();
+        for(int j = i; j<s.length(); j++){
+            if(s.charAt(j)==ch){
+                map.put(s, false);
+                return false;
             }
 
-            q.add(key);
-            dataMap.put(key, data);
 
-            Integer count2 = countMap.get(key);
-
-            if(count2 == null)
-                countMap.put(key, 1);
-            else{
-                count2++;
-                countMap.put(key, count2);
-            }
-
-            return dataMap.get(key);
+            ct2++;
         }
+
+        if(ct!=ct2){
+            map.put(s, false);
+            return false;
+        }
+
+        map.put(s,true);
+
+
+        return true;
     }
 
-    public void set(int key, int value) {
-
-
-        if(q.size() >= capacity){
-            removeOldest();
-        }
-        q.add(key);
-        dataMap.put(key, value);
-        Integer count = countMap.get(key);
-        if(count == null)
-            countMap.put(key, 1);
-        else{
-            count++;
-            countMap.put(key, count);
-        }
-
-    }
 }
-
-/*
-1 2
--->
-
- */

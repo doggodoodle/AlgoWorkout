@@ -18,9 +18,14 @@ public class BinaryTree {
         //bt.preOrderRecurssive(root);
         int[] list= {1,2,3,4,5,6,7,8};
         root = bt.getTree(list);
-        bt.levelOrderTraverse(root);
+        //bt.levelOrderTraverse(root);
+        System.out.println(bt.isBalanced(root));
 
 
+    }
+
+    boolean isBalanced(TreeNode root){
+        return (Math.abs(getHeight(root.getLeft()) - getHeight(root.getRight())) <= 1);
     }
 
     TreeNode getTree(int [] list){ //Level order list

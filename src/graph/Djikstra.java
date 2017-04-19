@@ -6,10 +6,18 @@ import java.util.Scanner;
 
 /**
  * Created by ritvikmathur on 12/17/16.
+ *
+ * https://www.hackerrank.com/challenges/bfsshortreach
  */
 public class Djikstra {
 
-    //4 4 1 2 1 2 3 3 3 4 3 4 2 7
+    //Input: 4 4 1 2 1 2 3 3 3 4 3 4 2 7
+    //n = 4
+    //# of queries = 4
+    //1>2 1
+    //2>3 3
+    //3>4 3
+    //4>2 7
 
     public static void main(String[] args) {
         shortestPath(1);
@@ -43,21 +51,30 @@ public class Djikstra {
         q.offer(origin);
 
         while(!q.isEmpty()){
-            int current = q.peek();
-            q.poll();
+            System.out.println(q);
+            int current = q.poll();
+            visited[current] = true;
             for (int i = 1; i<= n; i++){
                 if(matrix[current][i] != 0){
                     if(dist[i] > dist[current]+matrix[current][i])
                         dist[i] = dist[current]+matrix[current][i];
                     if(visited[i]!=true){
                         q.offer(i);
-                        visited[i] = true;
+                        visited[i] = true; // to avoid double adding to q
                     }
                 }
             }
         }
 
+        int x = 0;
         for (int i : dist){
+
+            /*if(x==0){
+                x=69;
+                continue;
+            }*/
+
+
             System.out.println(i);
         }
 

@@ -24,7 +24,7 @@ public class SortedSegments {
     }
 
     static List<String> parse(String s){
-        List<String> segs = new ArrayList<String>();
+        List<String> segs = new ArrayList<>();
         int b = 0, e = 0, currentType;
         while(e < s.length()){
             currentType = typeOf(s.charAt(e));

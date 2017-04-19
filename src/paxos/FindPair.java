@@ -39,7 +39,7 @@ import java.util.Scanner;
 
  is always a positive integer.
 
- $ find-pair &lt;filename&gt; &lt;some value&gt;
+ $ find-pair &lt;filename&gt; &lt;some value&gt;npm install --save express@4.10.2
  */
 public class FindPair {
     public static void main(String[] args) {
