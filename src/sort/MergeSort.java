@@ -52,7 +52,7 @@ public class MergeSort implements Sort {
                 res[r++] = arr1[i];
             }
         }
-        if(j<=arr2.length-1){
+        else if(j<=arr2.length-1){
             for(; j<arr2.length; j++){
                 res[r++] = arr2[j];
             }
