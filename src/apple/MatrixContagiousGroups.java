@@ -46,12 +46,12 @@ public class MatrixContagiousGroups {
 
     static boolean traverse(int[][] matrix, int row, int col){
 
-        if(isOutOfBounds(matrix, row, col) || matrix[row][col] == 0 || matrix[row][col] == -1)
+        if(isOutOfBounds(matrix, row, col) || matrix[row][col] == 0 )
         return false;
         boolean changed = false;
         if (matrix[row][col] == 1) {
             System.out.println("cell:"+row+"|"+col);
-            matrix[row][col] = -1;
+            matrix[row][col] = 0;
             changed = true;
         }
         traverse(matrix, row, col-1) ;

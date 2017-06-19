@@ -75,20 +75,20 @@ public class SubArraysWithSum {
             powerset.add(new ArrayList<Integer>());
         } else {
             powerset = getPowerSet(list, index + 1);
-            System.out.println("index:"+index);
-            System.out.println("powerset:"+powerset);
+            //System.out.println("index:"+index);
+            //System.out.println("powerset:"+powerset);
             Integer item = list.get(index);
-            System.out.println("item:"+item);
+            //System.out.println("item:"+item);
             List<List<Integer>> moresets = new ArrayList<>();
-            System.out.println("moresets:"+moresets);
+            //System.out.println("moresets:"+moresets);
             for (List<Integer> set : powerset) {
-                System.out.println("set:"+set);
+                //System.out.println("set:"+set);
                 List<Integer> moreSet = new ArrayList<>();
                 moreSet.addAll(set);
                 moreSet.add(item);
-                System.out.println("moreSet:"+moreSet);
+                //System.out.println("moreSet:"+moreSet);
                 moresets.add(moreSet);
-                System.out.println("moresets:"+moresets);
+                //System.out.println("moresets:"+moresets);
             }
             powerset.addAll(moresets);
             System.out.println("powerset:"+powerset);

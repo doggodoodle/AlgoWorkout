@@ -5,12 +5,12 @@ import java.util.Arrays;
 /**
  * Created by ritvikmathur on 1/3/17.
  */
-public class QuickSort {
+public class QuickSort implements Sort{
 
     public static void main(String[] args) {
         int [] arr = {4,3,5,1,12,10};
-        quickSort(arr, 0, arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        Sort quickSort = new QuickSort();
+        System.out.println(quickSort.sort(arr));
     }
 
     static void quickSort(int[] arr , int left, int right){
@@ -44,5 +44,12 @@ public class QuickSort {
         System.out.println(Arrays.toString(arr));
         return left;
 
+    }
+
+    @Override
+    public int[] sort(int[] arr) {
+        System.out.println("Running QuickSort");
+        quickSort(arr, 0, arr.length-1);
+        return arr;
     }
 }
