@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by ritvikmathur on 12/29/16.
  *
- * Solution found on web at http://ideone.com/evujRJ
+ * FindLongestPath found on web at http://ideone.com/evujRJ
  */
 public class MatrixAllPaths {
 

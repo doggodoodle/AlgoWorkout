@@ -1,4 +1,4 @@
-package java;
+package java_tests;
 
 /**
  * Created by ritvikmathur on 5/28/17.

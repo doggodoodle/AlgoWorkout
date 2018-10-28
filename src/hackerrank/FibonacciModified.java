@@ -11,7 +11,7 @@ public class FibonacciModified {
     static BigInteger t1= BigInteger.valueOf(0), t2= BigInteger.valueOf(0);
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named FindLongestPath. */
         Scanner sc = new Scanner(System.in);
         t1 = BigInteger.valueOf(sc.nextInt());
         t2 = BigInteger.valueOf(sc.nextInt());

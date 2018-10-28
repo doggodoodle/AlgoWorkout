@@ -1,7 +1,5 @@
 package puzzles;
 
-import java.math.BigInteger;
-
 /**
  * Created by ritvikmathur on 4/3/16.
  */
@@ -9,14 +7,21 @@ public class StringReversal {
 
     public static void main(String[] args) {
 
-        /*StringReversal stringReversal = new StringReversal();
+        String reverse = reverseString2("abcdef");
 
-        System.out.println(stringReversal.reverseString("Ri   tvik  "));*/
-
-        System.out.println(new BigInteger("4"));
-
+        System.out.println(reverse);
 
     }
+
+    private static String reverseString2(String word) {
+
+        int i = word.length();
+
+        StringBuffer sb = new StringBuffer(i);
+
+        return new StringBuilder(word).reverse().toString();
+    }
+
 
     public String reverseString(String s){
 
