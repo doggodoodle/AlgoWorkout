@@ -3,7 +3,7 @@ package leetcode.design;
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 4/5/17.
+ * Created  on 4/5/17.
  * https://leetcode.com/problems/design-twitter/#/description
  */
 /*public class Twitter {

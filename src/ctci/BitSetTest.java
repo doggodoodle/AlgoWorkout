@@ -5,7 +5,7 @@ import jdk.nashorn.internal.runtime.BitVector;
 import java.util.BitSet;
 
 /**
- * Created by ritvikmathur on 4/24/17.
+ * Created  on 4/24/17.
  */
 public class BitSetTest {
     public static void main(String[] args) {

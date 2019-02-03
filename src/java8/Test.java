@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 /**
- * Created by ritvikmathur on 3/17/17.
+ * Created  on 3/17/17.
  */
 public class Test {
     final static DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'"); // Quoted "Z" to indicate UTC, no timezone offset

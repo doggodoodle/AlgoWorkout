@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 1/31/17.
+ * Created  on 1/31/17.
  */
 public class LongestFilePath {
 

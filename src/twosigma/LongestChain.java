@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by ritvikmathur on 5/29/17.
+ * Created  on 5/29/17.
  *
  * longest chain
  given a set of words. for any word, delete one char, if the new word is

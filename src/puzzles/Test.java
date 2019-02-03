@@ -3,7 +3,7 @@ package puzzles;
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 11/10/16.
+ * Created  on 11/10/16.
  */
 public class Test {
 

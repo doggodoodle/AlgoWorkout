@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Objects;
 
 /**
- * Created by ritvikmathur on 6/19/17.
+ * Created  on 6/19/17.
  */
 public class Person {
 

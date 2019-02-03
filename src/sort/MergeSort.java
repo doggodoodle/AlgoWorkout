@@ -3,7 +3,7 @@ package sort;
 import java.util.Arrays;
 
 /**
- * Created by ritvikmathur on 6/18/17.
+ * Created  on 6/18/17.
  */
 public class MergeSort implements Sort {
     public static void main(String[] args) {

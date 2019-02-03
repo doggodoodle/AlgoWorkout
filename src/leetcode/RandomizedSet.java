@@ -3,7 +3,7 @@ package leetcode;
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 4/6/17.
+ * Created  on 4/6/17.
  */
 public class RandomizedSet {
 

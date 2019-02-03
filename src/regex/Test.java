@@ -1,7 +1,7 @@
 package regex;
 
 /**
- * Created by ritvikmathur on 1/1/17.
+ * Created  on 1/1/17.
  *
  * http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
  */

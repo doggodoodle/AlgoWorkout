@@ -1,7 +1,7 @@
 package monicalist;
 
 /**
- * Created by ritvikmathur on 1/28/17.
+ * Created  on 1/28/17.
  *
  * Given the root node to a singly linked list,
  * reverse the last 5 nodes in the list.

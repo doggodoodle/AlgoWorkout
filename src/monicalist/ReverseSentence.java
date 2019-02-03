@@ -1,7 +1,7 @@
 package monicalist;
 
 /**
- * Created by ritvikmathur on 1/29/17.
+ * Created  on 1/29/17.
  *
  * Given a const null terminated string containing a sentence,
  * can you print out the words of the sentence in reverse without

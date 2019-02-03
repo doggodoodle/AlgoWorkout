@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by ritvikmathur on 1/16/17.
+ * Created  on 1/16/17.
  */
 public class SubstringPalindrome {
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 /**
- * Created by ritvikmathur on 5/7/17.
+ * Created  on 5/7/17.
  */
 public class KthLargestElement {
     public static void main(String[] args) {

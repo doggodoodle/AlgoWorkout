@@ -1,7 +1,7 @@
 package graph;
 
 /**
- * Created by ritvikmathur on 4/17/17.
+ * Created  on 4/17/17.
  */
 public class MatrixTraverse {
     static final int SIZE = 8;

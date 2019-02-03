@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 12/17/16.
+ * Created  on 12/17/16.
  *
  * https://www.hackerrank.com/challenges/bfsshortreach
  */

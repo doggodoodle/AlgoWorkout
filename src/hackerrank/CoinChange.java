@@ -1,7 +1,7 @@
 package hackerrank;
 
 /**
- * Created by ritvikmathur on 12/30/16.
+ * Created  on 12/30/16.
  */
 public class CoinChange {
 

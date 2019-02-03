@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 5/14/17.
+ * Created  on 5/14/17.
  * https://leetcode.com/problems/single-element-in-a-sorted-array/#/solutions
  */
 public class SingleElementSortedArray {

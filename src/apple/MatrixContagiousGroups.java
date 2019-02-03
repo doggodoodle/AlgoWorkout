@@ -1,7 +1,7 @@
 package apple;
 
 /**
- * Created by ritvikmathur on 1/7/17.
+ * Created  on 1/7/17.
  */
 public class MatrixContagiousGroups {
 

@@ -1,7 +1,7 @@
 package monicalist;
 
 /**
- * Created by ritvikmathur on 1/29/17.
+ * Created  on 1/29/17.
  */
 public class SinglyLinkedList{
     public int value;

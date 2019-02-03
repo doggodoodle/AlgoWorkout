@@ -1,7 +1,7 @@
 package matrix;
 
 /**
- * Created by ritvikmathur on 12/24/16.
+ * Created by on 12/24/16.
  */
 public class MaxSquareMatrix {
 

@@ -3,7 +3,7 @@ package PriorityQ;
 import java.util.PriorityQueue;
 
 /**
- * Created by ritvikmathur on 5/10/17.
+ * Created  on 5/10/17.
  */
 public class PQTest {
     public static void main(String[] args) {

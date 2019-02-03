@@ -1,7 +1,7 @@
 package monicalist;
 
 /**
- * Created by ritvikmathur on 1/29/17.
+ * Created  on 1/29/17.
  *
  * Given the root node to a singly linked list, write an algorithm to see if it loops back on itself somewhere in the middle.
  *

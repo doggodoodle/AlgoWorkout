@@ -1,7 +1,7 @@
 package tree.structure;
 
 /**
- * Created by ritvikmathur on 11/21/15.
+ * Created  on 11/21/15.
  */
 public class TreeNode <T> {
     private T data;

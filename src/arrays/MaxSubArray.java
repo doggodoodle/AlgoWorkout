@@ -1,7 +1,7 @@
 package arrays;
 
 /**
- * Created by ritvikmathur on 5/3/17.
+ * Created  on 5/3/17.
  */
 public class MaxSubArray {
 

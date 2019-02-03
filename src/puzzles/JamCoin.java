@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 4/9/16.
+ * Created  on 4/9/16.
  */
 public class JamCoin {
 

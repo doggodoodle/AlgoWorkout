@@ -3,7 +3,7 @@ package puzzles;
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 1/2/17.
+ * Created  on 1/2/17.
  *
  * Find pairs in array with sum n
  */

@@ -3,7 +3,7 @@ package aqr;
 import java.util.HashSet;
 
 /**
- * Created by ritvikmathur on 12/11/16.
+ * Created  on 12/11/16.
  *
  * ERIC = RICE <> REIC
  *

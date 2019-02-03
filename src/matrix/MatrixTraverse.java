@@ -1,7 +1,7 @@
 package matrix;
 
 /**
- * Created by ritvikmathur on 12/29/16.
+ * Created by on 12/29/16.
  */
 public class MatrixTraverse {
 

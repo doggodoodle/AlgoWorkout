@@ -3,7 +3,7 @@ package leetcode;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by ritvikmathur on 3/11/17.
+ * Created  on 3/11/17.
  *
  * [2, -1, 2, 1, 1, 1, -5, 6] | 3 --> 4
  *

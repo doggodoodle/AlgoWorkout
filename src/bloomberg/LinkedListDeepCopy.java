@@ -1,7 +1,7 @@
 package bloomberg;
 
 /**
- * Created by ritvikmathur on 11/19/16.
+ * Created  on 11/19/16.
  *
  * Deep Copy a linked list along with random node pointers pointing to other nodes in the list.
  *

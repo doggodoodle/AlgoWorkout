@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * Created by ritvikmathur on 11/5/16.
+ * Created  on 11/5/16.
  */
 public class Main {
     public static void main(String[] args) {

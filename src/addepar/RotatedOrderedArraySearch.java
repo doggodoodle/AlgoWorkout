@@ -3,7 +3,7 @@ package addepar;
 import java.util.Arrays;
 
 /**
- * Created by ritvikmathur on 2/21/17.
+ * Created  on 2/21/17.
  */
 public class RotatedOrderedArraySearch {
 

@@ -3,7 +3,7 @@ package monicalist;
 import java.util.ArrayList;
 
 /**
- * Created by ritvikmathur on 1/28/17.
+ * Created  on 1/28/17.
  *
  * You have a ladder n-steps in height.  You can either take one step or two steps up the ladder at a time.
  * How can you find out all the different combinations up the ladder?  Then figure out an algorithm that will

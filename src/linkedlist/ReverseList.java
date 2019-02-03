@@ -1,7 +1,7 @@
 package linkedlist;
 
 /**
- * Created by ritvikmathur on 1/2/17.
+ * Created  on 1/2/17.
  */
 public class ReverseList {
     static class ListNode {

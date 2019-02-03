@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 5/17/17.
+ * Created  on 5/17/17.
  * https://www.hackerrank.com/challenges/the-power-sum
  */
 public class PowerSum {

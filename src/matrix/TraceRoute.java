@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by ritvikmathur on 7/20/16.
+ * Created  on 7/20/16.
  *
  * Trace all routes of worm from (0,0) of matrix to (n,n)
  *

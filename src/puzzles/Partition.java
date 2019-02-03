@@ -1,7 +1,7 @@
 package puzzles;
 
 /**
- * Created by ritvikmathur on 5/1/17.
+ * Created  on 5/1/17.
  */
 public class Partition {
     public static void main(String[] args) {

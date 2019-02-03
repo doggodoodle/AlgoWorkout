@@ -3,7 +3,7 @@ package twosigma;
 import java.util.*;
 
 /**
- * Created by ritvikmathur on 6/1/17.
+ * Created  on 6/1/17.
  *
  * Question 2:
 

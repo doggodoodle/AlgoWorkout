@@ -1,7 +1,7 @@
 package puzzles;
 
 /**
- * Created by ritvikmathur on 4/3/16.
+ * Created  on 4/3/16.
  */
 public class StringReversal {
 

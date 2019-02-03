@@ -1,7 +1,7 @@
 package bits;
 
 /**
- * Created by ritvikmathur on 1/3/17.
+ * Created  on 1/3/17.
  */
 public class CountSetBits {
     public static void main(String[] args) {

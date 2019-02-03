@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.concurrent.*;
 
 /**
- * Created by ritvikmathur on 6/20/17.
+ * Created  on 6/20/17.
  */
 public class TestThreadSingleton {
     public static void main(String[] args) {

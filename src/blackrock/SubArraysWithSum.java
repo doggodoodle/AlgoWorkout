@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by ritvikmathur on 2/18/17.
+ * Created  on 2/18/17.
  */
 public class SubArraysWithSum {
     public static void main(String[] args) {

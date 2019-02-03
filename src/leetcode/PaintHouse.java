@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 2/9/17.
+ * Created  on 2/9/17.
  * https://leetcode.com/submissions/detail/92361572/
  *
  * https://leetcode.com/problems/paint-house/

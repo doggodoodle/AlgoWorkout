@@ -1,7 +1,7 @@
 package puzzles;
 
 /**
- * Created by ritvikmathur on 11/12/16.
+ * Created  on 11/12/16.
  */
 public class IndirectSquare {
     public static int square(int n){

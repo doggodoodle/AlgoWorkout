@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * Created by ritvikmathur on 11/20/16.
+ * Created  on 11/20/16.
  *
  * Binary search in a lambda sorted list
  *

@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 4/20/17.
+ * Created  on 4/20/17.
  */
 public class DecodeString {
     public static void main(String[] args) {

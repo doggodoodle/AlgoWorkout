@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 12/7/16.\
+ * Created  on 12/7/16.\
  *
  * Given a list of sorted values (let’s call them utxos), find exactly two distinct members of that list
 

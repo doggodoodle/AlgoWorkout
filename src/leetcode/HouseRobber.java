@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 2/18/17.
+ * Created  on 2/18/17.
  */
 public class HouseRobber {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package java_tests;
 import java.util.Map;
 
 /**
- * Created by ritvikmathur on 6/20/17.
+ * Created  on 6/20/17.
  */
 public enum EnumSingleton {
 

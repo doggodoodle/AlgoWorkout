@@ -1,7 +1,7 @@
 package java_tests;
 
 /**
- * Created by ritvikmathur on 5/28/17.
+ * Created  on 5/28/17.
  */
 public class ComparatorTest {
     public static void main(String[] args) {

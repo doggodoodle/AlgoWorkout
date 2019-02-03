@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by ritvikmathur on 5/12/17.
+ * Created  on 5/12/17.
  */
 public class KelvinBacon {
     /*

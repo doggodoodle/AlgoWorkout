@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by ritvikmathur on 12/7/16.
+ * Created  on 12/7/16.
  */
 public class Combinations {
 

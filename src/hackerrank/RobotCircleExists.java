@@ -3,7 +3,7 @@ package hackerrank;
 import java.util.Stack;
 
 /**
- * Created by ritvikmathur on 1/16/17.
+ * Created  on 1/16/17.
  */
 public class RobotCircleExists {
 

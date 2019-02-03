@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by ritvikmathur on 4/11/17.
+ * Created  on 4/11/17.
  * https://leetcode.com/problems/maximal-rectangle/
  */
 public class MaximalRectangle {

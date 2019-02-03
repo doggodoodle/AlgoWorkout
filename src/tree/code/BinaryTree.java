@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Created by ritvikmathur on 11/21/15.
+ * Created  on 11/21/15.
  */
 public class BinaryTree {
 

@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 11/23/16.
+ * Created  on 11/23/16.
  */
 public class FibonacciModified {
 

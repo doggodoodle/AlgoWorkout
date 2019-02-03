@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by ritvikmathur on 5/29/17.
+ * Created  on 5/29/17.
  * The sentence "A quick brown fox jumps over the lazy dog" contains every single letter in the alphabet.
 
  Such sentences are called pangrams. You are to write a method getMissingLetters, which takes a String,

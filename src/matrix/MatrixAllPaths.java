@@ -3,7 +3,7 @@ package matrix;
 import java.util.Arrays;
 
 /**
- * Created by ritvikmathur on 12/29/16.
+ * Created  on 12/29/16.
  *
  * FindLongestPath found on web at http://ideone.com/evujRJ
  */

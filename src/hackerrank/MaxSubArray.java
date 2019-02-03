@@ -3,7 +3,7 @@ package hackerrank;
 import java.util.Scanner;
 
 /**
- * Created by ritvikmathur on 12/18/16.
+ * Created  on 12/18/16.
  */
 public class MaxSubArray {
 
