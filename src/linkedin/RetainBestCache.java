@@ -23,6 +23,10 @@ public class RetainBestCache<K, T extends Rankable> {
 
     Map<K,T> map;
 
+    public static void main(String[] args) {
+        System.out.println("a");
+    }
+
 
 
     /* Constructor with a data source (assumed to be slow) and a cache size */
@@ -44,7 +48,7 @@ public class RetainBestCache<K, T extends Rankable> {
         T entry = map.get(key);
         if(entry==null){
             entry = ds.get(key);
-            if(map.size()>=entriesToRetain){
+            if(map.size() >= entriesToRetain) {
                 K lowest=null;//get lowest from heap
                 map.remove(lowest);
             }

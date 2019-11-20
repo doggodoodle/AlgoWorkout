@@ -9,13 +9,17 @@ public class Test {
 
 
     public static void main(String[] args) {
-        Double a = new Double(1);
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        Test test = new Test();
-        test.func1(a, set);
-        System.out.println("a:"+a);
-        System.out.println("set"+set);
+        List<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(3);
+        l.add(4);
+        l.add(16);
+        Iterator<Integer> iterator = l.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
     }
 
     private void func1(Double a, Set<Integer> set) {

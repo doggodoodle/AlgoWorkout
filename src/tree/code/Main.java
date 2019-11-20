@@ -3,15 +3,38 @@ package tree.code;
 import tree.structure.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Stack;
+import java.util.stream.Collectors;
 
 /**
  * Created  on 11/5/16.
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(preOrderTraverse(createTree()));
+        //System.out.println(preOrderTraverse(createTree()));
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        map.put(1, 1);
+        map.put(2, 2);
+        map.put(3, 3);
+
+        Iterator<Integer> iterator = map.keySet().iterator();
+        int[] arr = {1,2,3};
+        //Arrays.stream(arr).forEach(v -> set.add(v));
+
+        while(iterator.hasNext()) {
+            Integer i = iterator.next();
+            System.out.println(i);
+            map.put(i+10, i);
+        }
+
+
     }
 
     private static boolean preOrderTraverse(TreeNode<Integer> root) {
