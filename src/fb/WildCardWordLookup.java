@@ -74,11 +74,7 @@ public class WildCardWordLookup {
     public static void main(String[] args) {
         WildCardWordLookup lookup = new WildCardWordLookup();
         lookup.add(Arrays.asList("abc", "azk", "bqc"));
-
-        System.out.println(lookup.get("*"));
-
         System.out.println("****************");
-
         String s = "abc";
         System.out.println(lookup.get(s) ? "Passed" : "Failed!!! " + s);
         s = "a*c";
